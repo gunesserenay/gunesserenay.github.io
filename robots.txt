@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gunesserenay.github.io/sitemap.xml

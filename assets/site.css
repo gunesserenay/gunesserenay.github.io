@@ -1,0 +1,278 @@
+@charset "UTF-8";
+:root{--cream:#faf7f0;--ink:#203b32;--muted:#59665e;--orange:#ff6b35;--dark-orange:#a63d1c;--line:#dddcd2;--teal:#4ecdc4}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration-thickness:1px;text-underline-offset:4px}img{display:block;max-width:100%;height:auto}svg{width:24px;height:24px;flex-shrink:0}h1,h2,h3,p{margin:0}h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.07;letter-spacing:-2.5px}h1{font-size:clamp(46px,5.2vw,72px)}h2{font-size:clamp(34px,4vw,52px)}h3{font-size:20px;line-height:1.3;letter-spacing:-.4px}p{color:var(--muted)}.wrap{width:min(1180px,calc(100% - 96px));margin-inline:auto}.header{height:104px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:inline-flex;align-items:center;font-weight:750;font-size:27px;letter-spacing:-1px;text-decoration:none;white-space:nowrap}.brand-mark{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:var(--orange);color:var(--ink);margin-right:10px}.brand-dot{color:var(--dark-orange)}.header nav{display:flex;gap:30px}.header nav a{font-size:14px;text-decoration:none}.header nav a:hover,.footer a:hover{color:var(--dark-orange)}.button{display:inline-flex;align-items:center;justify-content:center;gap:20px;background:var(--orange);border-radius:8px;padding:12px 20px;color:#203b32;font-weight:700;font-size:14px;text-decoration:none;min-height:48px}.hero{display:grid;grid-template-columns:1.06fr 1fr;align-items:center;gap:20px;padding-top:0;padding-bottom:70px}.eyebrow{font-size:11px;letter-spacing:2px;font-weight:750;color:var(--dark-orange);margin-bottom:22px}.hero .eyebrow{display:flex;align-items:center;gap:9px}.eyebrow span{width:7px;height:7px;border-radius:50%;background:var(--orange)}h1 em{font-style:normal;color:var(--dark-orange)}.hero-description{font-size:17px;max-width:470px;margin:26px 0 30px;line-height:1.8}.store-links{display:flex;flex-wrap:wrap;gap:12px}.hero-note{font-size:12px;margin-top:20px}.hero-note span{padding:0 10px}.hero-art{position:relative;min-width:0}.hero-art img{width:100%}.art-label{position:absolute;font:italic 20px Georgia,serif;color:var(--ink)}.label-top{top:7%;left:11%;transform:rotate(-8deg)}.label-bottom{bottom:12%;right:0;transform:rotate(-6deg)}.art-caption{text-align:center;font-size:9px;font-weight:700;letter-spacing:2px;color:var(--muted)}.promise-strip{border-block:1px solid var(--line);background:#f1f0e6}.promise-strip .wrap{display:flex;justify-content:space-around;gap:20px;padding-block:19px}.promise-strip span{font-size:12px;color:#445b4d;letter-spacing:.4px}.promise-strip span:before{content:'✳';color:var(--dark-orange);margin-right:12px}.section{padding-block:96px}.section-heading{margin-bottom:44px}.section-heading>p:last-child:not(.eyebrow){margin-top:20px;max-width:540px;font-size:16px}.steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin:0}.step-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:25px}.icon-box{display:inline-grid;place-items:center;border:1px solid #e9cfc0;background:#fce9dd;color:var(--dark-orange);width:48px;height:48px;border-radius:13px;flex-shrink:0}.step-number{font-family:Georgia,serif;font-size:25px;color:#66746b}.steps h3{margin-bottom:12px}.steps p{font-size:14px}.features-section{background:#f1f0e6}.features{display:grid;grid-template-columns:1fr 1fr;gap:20px}.feature{background:var(--cream);border:1px solid #e5e3d8;padding:32px;display:flex;gap:22px;border-radius:14px}.feature p{font-size:14px;margin-top:12px}.feature .feature-tags{font-size:10px;color:var(--dark-orange);font-weight:650;letter-spacing:.3px;margin-top:20px}.screenshots{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.screenshots figure{margin:0;min-width:0}.screenshot-placeholder{aspect-ratio:9/16;border:1px dashed #abb6a7;border-radius:24px;background:#eeeee3;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center;color:#58675a;gap:10px}.screenshot-placeholder span{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:#e1e6d9}.screenshot-placeholder strong{font-size:13px;font-weight:500}.screenshot-placeholder small{font-size:11px}.screenshots figcaption{padding-top:22px}.screen-number{display:block;font-size:11px;color:var(--dark-orange);font-weight:700;margin-bottom:8px}.screenshots h3{font-size:17px}.screenshots p{font-size:13px;margin-top:8px}.why-section{background:#203b32;color:var(--cream);padding-block:80px}.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px}.why-section .eyebrow{color:#ffc5a9}.benefits{display:grid;gap:25px}.benefits article{display:flex;gap:24px;padding-bottom:25px;border-bottom:1px solid #466054}.benefits article:last-child{border:0;padding-bottom:0}.benefits article>span{font:italic 21px Georgia,serif;color:var(--teal)}.benefits h3{font-size:19px}.benefits p{font-size:14px;color:#cbd6cd;margin-top:9px}.faq-section{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px}.faq details{border-bottom:1px solid var(--line)}.faq summary{cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:15px;font-weight:600;padding:20px 0;list-style:none}.faq summary::-webkit-details-marker{display:none}.faq summary span{font-size:23px;color:var(--dark-orange);font-weight:400}.faq details[open] summary span{transform:rotate(45deg)}.faq details p{font-size:14px;padding:0 28px 22px 0}.download{background:#f5e0d1;border:1px solid #edd5c3;padding:65px 25px;text-align:center;border-radius:20px;margin-bottom:80px}.download>p:not(.eyebrow){margin-top:20px}.download .store-links{justify-content:center;margin-top:28px}.download .download-note{font:italic 17px Georgia,serif;color:#76583e;margin-top:24px}.footer{border-top:1px solid var(--line);padding-top:40px;padding-bottom:25px;display:grid;grid-template-columns:1fr 1fr;gap:25px}.footer p{font-size:12px;margin-top:8px}.footer nav{display:flex;gap:12px 24px;flex-wrap:wrap;justify-content:flex-end;align-content:center}.footer nav a{font-size:12px;text-decoration:none;min-height:36px;display:flex;align-items:center}.footer .footer-note{grid-column:1/-1;font-size:10px;padding-top:20px;border-top:1px solid var(--line)}.skip{position:absolute;left:16px;top:-90px;background:var(--ink);color:white;padding:10px 20px;z-index:10}.skip:focus{top:8px}:focus-visible{outline:3px solid #237e77;outline-offset:5px;border-radius:3px}.support-main{max-width:850px;padding-block:70px 90px}.support-main h1{font-size:56px}.support-intro{font-size:18px;margin-top:25px}.contact-card{padding:32px;background:#f1f0e6;border:1px solid var(--line);border-radius:14px;margin-block:35px}.contact-card h2,.support-download h2{font:600 24px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-.5px}.contact-card p{margin-top:16px}.contact-email{display:inline-block;font-size:clamp(16px,3vw,25px);color:var(--dark-orange);margin-top:14px;overflow-wrap:anywhere}.support-download{margin-bottom:32px}.support-download .store-links{margin-top:22px}
+@media(min-width:1440px){.hero{padding-top:20px;padding-bottom:90px}}@media(max-width:1000px){.wrap{width:calc(100% - 56px)}.header nav{gap:18px}.hero{gap:0}.hero h1{font-size:52px}.hero-description{font-size:15px}.steps{gap:20px}.feature{padding:24px;gap:16px}.screenshots{gap:16px}.faq-section{gap:36px}.why-grid{gap:40px}.label-bottom{font-size:17px;right:-6px}}@media(max-width:760px){.wrap{width:calc(100% - 40px)}.header{height:auto;min-height:88px;flex-wrap:wrap;gap:12px;padding-block:18px}.brand{font-size:24px}.brand-mark{width:34px;height:34px}.header nav{order:3;width:100%;justify-content:center;gap:32px;border-top:1px solid var(--line);padding-top:10px}.header nav a{min-height:40px;display:flex;align-items:center}.header-cta{padding:10px 14px;font-size:12px;gap:8px}.header-cta svg{width:18px}.hero{grid-template-columns:1fr;padding-top:34px;padding-bottom:35px;gap:28px}.hero h1{font-size:clamp(43px,8.7vw,62px);letter-spacing:-2px}.hero .eyebrow{font-size:9px;letter-spacing:1.6px;margin-bottom:20px}.hero-description{font-size:15px;margin-block:22px 25px}.hero-art{width:min(100%,460px);margin-inline:auto}.hero-art img{width:100%}.label-bottom{right:3%;font-size:18px}.label-top{font-size:18px}.hero .store-links{flex-wrap:wrap;gap:4px}.hero-note{font-size:11px}.promise-strip .wrap{gap:8px;padding-block:14px;flex-wrap:wrap}.promise-strip span{font-size:10px}.promise-strip span:before{margin-right:5px}.section{padding-block:64px}.section-heading{margin-bottom:32px}h2{letter-spacing:-1.4px}.steps{grid-template-columns:1fr;gap:22px}.steps li{position:relative;padding:22px 22px 22px 88px;border:1px solid var(--line);border-radius:12px;background:#f7f4ec}.step-top{margin:0}.step-top .icon-box{position:absolute;left:22px;top:22px}.step-number{position:absolute;right:22px;top:22px;font-size:18px}.steps h3{padding-right:30px;margin-bottom:10px}.steps p{font-size:13px}.features{grid-template-columns:1fr}.feature{padding:25px 22px}.screenshots{grid-template-columns:1fr 1fr;gap:28px 16px}.screenshot-placeholder{border-radius:18px;padding:12px}.screenshots h3{font-size:15px}.screenshots p{font-size:12px}.why-grid,.faq-section{grid-template-columns:1fr;gap:36px}.why-section{padding-block:60px}.faq-section .section-heading{margin:0}.download{padding:48px 20px;margin-bottom:55px}.download h2{font-size:38px}.download>p{font-size:14px}.download .store-links{gap:10px}.footer{grid-template-columns:1fr}.footer nav{justify-content:flex-start;gap:8px 20px}.support-main{padding-block:42px 60px}.support-main h1{font-size:44px}.contact-card{padding:24px}.support-intro{font-size:16px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Official artwork: preserve its proportions, colors, borders and clear space.
+   Google supplies transparent padding; Apple receives matching clear space. */
+.store-links {
+  --badge-height: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+.store-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  text-decoration: none;
+  min-height: 44px;
+  border-radius: 4px;
+}
+.store-badge img { display: block; max-width: none; }
+.store-badge-apple { padding: calc(var(--badge-height) / 4); }
+.store-badge-apple img {
+  height: var(--badge-height);
+  width: calc(var(--badge-height) * 2.99160175);
+}
+.store-badge-google img {
+  /* Visible badge is 168 px tall within the original 250 px canvas. */
+  height: calc(var(--badge-height) * 250 / 168);
+  width: calc(var(--badge-height) * 646 / 168);
+}
+@media (max-width: 760px) {
+  .store-links { --badge-height: 40px; }
+  .download .store-links { gap: 4px; }
+}
+
+/* Real product photography. The original UI is never redrawn.
+   The viewport excludes source pixels y=0..95 and y=2268..2399,
+   hiding the Android status and system-navigation bars on the page. */
+.app-screen {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1080 / 2172;
+  overflow: hidden;
+  isolation: isolate;
+  background: #fafafa;
+  border-radius: 20px;
+}
+.app-screen img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  transform: translateY(-4%);
+}
+.screenshots .app-screen {
+  border: 1px solid #dddcd2;
+  box-shadow: 0 10px 26px #203b320a;
+}
+.hero-product { padding: 12px 0 32px; }
+.hero-product::before {
+  content: "";
+  position: absolute;
+  width: 96%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #e9eddf;
+  left: 2%;
+  top: 8%;
+  z-index: 0;
+}
+.product-composition {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1.06;
+}
+.product-screen {
+  position: absolute;
+  margin: 0;
+  padding: 5px;
+  border: 1px solid #d5d7c9;
+  background: #fdfbf6;
+  border-radius: 26px;
+  box-shadow: 0 20px 42px #203b321a;
+}
+.product-screen-primary { width: 48%; right: 6%; top: 2%; z-index: 2; }
+.product-screen-secondary { width: 39%; left: 3%; top: 16%; z-index: 1; }
+.product-label-top { top: 1%; left: 2%; z-index: 3; transform: rotate(-7deg); }
+.product-label-bottom { bottom: 6%; right: 3%; z-index: 3; transform: rotate(-5deg); }
+.hero-product .art-caption { position: relative; margin-top: 10px; }
+@media (max-width: 1000px) and (min-width: 761px) {
+  .hero-product .art-label { font-size: 16px; }
+  .product-screen { padding: 3px; border-radius: 19px; }
+  .product-screen .app-screen { border-radius: 16px; }
+}
+@media (max-width: 760px) {
+  .hero-product { width: min(100%, 460px); margin-top: 8px; padding-bottom: 26px; }
+  .product-composition { aspect-ratio: 1 / 1.16; }
+  .product-screen-primary { width: 54%; right: 0; top: 3%; }
+  .product-screen-secondary { width: 43%; left: 0; top: 17%; }
+  .product-screen { padding: 3px; border-radius: 20px; }
+  .product-screen .app-screen { border-radius: 16px; }
+  .product-label-top { left: 0; top: 0; font-size: 17px; }
+  .product-label-bottom { bottom: 6%; right: 0; font-size: 17px; }
+  .screenshots .app-screen { border-radius: 14px; }
+}
+/* Keep the editorial note clear of the caption at every viewport. */
+.hero-product .product-label-bottom {
+  position: relative;
+  display: block;
+  right: auto;
+  bottom: auto;
+  margin: 0 12px 22px 0;
+  text-align: right;
+}
+.hero-product .art-caption { margin-top: 0; }
+
+/* Food-led hero: original app capture remains separate from the generated photo. */
+.hero-food { padding: 0 0 18px; }
+.food-composition { position: relative; width: 100%; aspect-ratio: 1 / 1.08; }
+.hero-food-photo { position: absolute; margin: 0; top: 0; right: 0; width: 87%; height: 93%; border-radius: 32px; overflow: hidden; }
+.hero-food-photo img { width: 100%; height: 100%; object-fit: cover; }
+.hero-food-screen { position: absolute; margin: 0; left: 28%; bottom: 8%; width: 47.5%; padding: 5px; z-index: 2; border-radius: 25px; background: #fdfbf6; border: 1px solid #d5d7c9; box-shadow: 0 16px 35px #203b3230; }
+
+.screen-preview { display: block; width: 100%; border: 0; padding: 0; background: transparent; border-radius: 20px; cursor: zoom-in; color: inherit; }
+/* The generated ingredient photo replaces only the original photo tile. */
+.app-screen img.analysis-photo { position: absolute; left: 5.93%; top: 11.05%; width: 42.4%; height: 22.4%; transform: none; object-fit: cover; border-radius: 3.5%; }
+.screen-dialog { width: min(580px, calc(100vw - 24px)); max-height: 92dvh; margin: auto; padding: 0 20px 20px; border: 1px solid #d5d7c9; border-radius: 20px; background: #faf7f0; color: #203b32; box-shadow: 0 30px 100px #0005; }
+.screen-dialog::backdrop { background: #203b32b8; }
+.screen-dialog-header { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 0; background: #faf7f0; }
+.screen-dialog-header h2 { font: 600 15px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; }
+.screen-dialog-close { width: 44px; height: 44px; flex: 0 0 44px; border: 1px solid #d5d7c9; border-radius: 50%; background: #fffdf8; color: #203b32; font-size: 27px; cursor: pointer; }
+.screen-dialog-content { width: 100%; }
+html:has(.screen-dialog[open]) { overflow: hidden; }
+@media (max-width: 760px) {
+  .hero-food { width: min(100%, 460px); }
+  .hero-food-photo { border-radius: 24px; }
+  .hero-food-screen { width: 51.25%; left: 27%; padding: 3px; border-radius: 18px; }
+  .hero-food-screen .app-screen { border-radius: 14px; }
+
+  .screen-dialog { padding: 0 10px 10px; }
+}
+
+/* Genuine detection UI gives context behind the larger recipe screen. */
+.hero-detection-card {
+  position: absolute;
+  left: 0;
+  top: 23%;
+  width: 33%;
+  margin: 0;
+  padding: 10px 7px 7px;
+  border: 1px solid #dadfd1;
+  border-radius: 16px;
+  background: #fdfbf6;
+  box-shadow: 0 10px 26px #203b3218;
+  z-index: 1;
+}
+.hero-detection-card figcaption {
+  margin-bottom: 8px;
+  font-size: 8px;
+  font-weight: 750;
+  letter-spacing: 1px;
+  color: #59665e;
+}
+.detection-card-screen { aspect-ratio: 1080 / 1320; border-radius: 8px; }
+/* Same original photo coordinates, expressed against the shorter crop. */
+.detection-card-screen img.analysis-photo { top: 18.18%; height: 36.86%; }
+.screen-dialog .detection-card-screen { aspect-ratio: 1080 / 2172; }
+.screen-dialog .detection-card-screen img.analysis-photo { top: 11.05%; height: 22.4%; }
+.hero-food .art-caption {
+  margin-top: 8px;
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 2px;
+  color: #203b32;
+}
+@media (max-width: 760px) {
+  .hero-detection-card { width: 34%; top: 24%; padding: 7px 4px 4px; border-radius: 11px; }
+  .hero-detection-card figcaption { font-size: 6px; letter-spacing: .6px; margin-bottom: 5px; }
+  .hero-food .art-caption { font-size: 10px; letter-spacing: 1.6px; margin-top: 12px; }
+}
+
+/* Three distinct stages: scan evidence → recipe evidence → emotional outcome. */
+.hero-journey { padding: 0 0 10px; }
+.journey-composition { position: relative; width: 100%; aspect-ratio: 1 / 1.07; }
+.journey-wash { position: absolute; left: 6%; right: 1%; top: 18%; bottom: 9%; background: #eeeee2; border-radius: 50%; transform: rotate(-13deg); }
+.journey-composition figure { position: absolute; margin: 0; }
+.journey-scan { width: 24.5%; left: 0; top: 24%; z-index: 2; }
+.journey-scan .screen-preview { padding: 4px; background: #fffdf8; border: 1px solid #d4dbce; border-radius: 15px; box-shadow: 0 10px 24px #203b3215; }
+.journey-scan .app-screen { border-radius: 10px; aspect-ratio: 1080 / 1640; }
+.journey-scan .analysis-photo { top: 14.63%; height: 29.67%; }
+.journey-result { width: 41%; left: 27%; top: 4%; z-index: 3; }
+.journey-result .screen-preview { padding: 5px; border: 1px solid #314139; background: #314139; border-radius: 24px; box-shadow: 0 20px 36px #203b3226; }
+.journey-result .app-screen { border-radius: 18px; }
+.journey-meal { width: 43%; right: -2%; top: 48%; z-index: 4; }
+.journey-meal img { width: 100%; height: auto; filter: drop-shadow(0 10px 12px #203b3218); }
+.journey-composition figcaption { margin-top: 13px; color: #203b32; font-size: 10px; line-height: 1.6; letter-spacing: .2px; text-align: center; white-space: nowrap; }
+.journey-composition figcaption span { display: block; color: #a63d1c; font-size: 9px; font-weight: 750; letter-spacing: 1.5px; margin-bottom: 2px; }
+.journey-result figcaption { font-weight: 650; }
+.journey-meal figcaption { font-family: Georgia, serif; font-style: italic; font-size: 17px; margin-top: 0; }
+.journey-meal figcaption span { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-style: normal; }
+.journey-arrow { position: absolute; width: 21%; height: auto; z-index: 4; }
+.journey-arrow-first { left: 6%; top: 7%; color: #d4532a; transform: rotate(-9deg); }
+.journey-arrow-last { width: 16%; right: 4%; top: 25%; color: #298c83; }
+.hero-journey .art-caption { margin-top: 12px; color: #203b32; font-weight: 750; font-size: 11px; letter-spacing: 2px; }
+@media (max-width: 760px) {
+  .hero-journey { width: min(100%, 460px); }
+  .journey-composition { aspect-ratio: 1 / 1.27; }
+  .journey-result { width: 44%; left: 27%; top: 3%; }
+  .journey-result .screen-preview { padding: 3px; border-radius: 17px; }
+  .journey-result .app-screen { border-radius: 13px; }
+  .journey-scan { width: 24.5%; top: 23%; }
+  .journey-scan .screen-preview { padding: 3px; border-radius: 11px; }
+  .journey-scan .app-screen { border-radius: 7px; }
+  .journey-meal { width: 45%; right: -1%; top: 48%; }
+  .journey-composition figcaption { font-size: 8px; white-space: normal; margin-top: 9px; }
+  .journey-composition figcaption span { font-size: 8px; }
+  .journey-meal figcaption { font-size: 15px; margin-top: 0; }
+  .journey-arrow-first { top: 7%; }
+  .journey-arrow-last { top: 29%; }
+  .hero-journey .art-caption { font-size: 9px; letter-spacing: 1.5px; margin-top: 4px; }
+}
+@media (max-width: 760px) {
+  .journey-wash { transform: none; }
+}
+
+/* User supplied scan reference and finished recipe photography. */
+.journey-scan .screen-preview { padding: 0; border: 0; background: transparent; border-radius: 18px; }
+.app-screen.scan-reference-screen { aspect-ratio: 368 / 782; background: transparent; }
+.journey-scan .app-screen.scan-reference-screen { aspect-ratio: 368 / 782; border-radius: 18px; }
+.app-screen.scan-reference-screen img { transform: none; }
+.journey-meal img { border-radius: 50%; filter: none; box-shadow: 0 10px 24px #203b3218; }
+@media (max-width: 760px) {
+  .journey-scan .screen-preview { padding: 0; border-radius: 12px; }
+  .journey-scan .app-screen.scan-reference-screen { border-radius: 12px; }
+}
+
+/* Clear, rounded directional connectors between the three story stages. */
+.journey-arrow { pointer-events: none; }
+.journey-arrow-first { width: 25%; left: 1%; top: 6.5%; transform: none; color: #c95730; }
+.journey-arrow-last { width: 20%; right: 2%; top: 24%; color: #3b7262; }
+@media (max-width: 760px) {
+ .journey-arrow-first { top: 6%; }
+ .journey-arrow-last { top: 28%; right: 0; }
+}
+
+.hero-description .hero-question { margin-bottom: 8px; font-weight: 600; }
+
+/* Keep each step number attached to its icon, with tighter section rhythm. */
+#how-it-works { padding-block: 86px; }
+#how-it-works .section-heading { margin-bottom: 40px; }
+#how-it-works .step-top { justify-content: flex-start; gap: 12px; margin-bottom: 22px; }
+#how-it-works .icon-box { background: #ffe2cf; border-color: #edc6ae; }
+@media (max-width: 760px) {
+ #how-it-works { padding-block: 58px; }
+ #how-it-works .section-heading { margin-bottom: 29px; }
+ #how-it-works .steps li { padding: 20px 22px; }
+ #how-it-works .step-top { margin-bottom: 16px; }
+ #how-it-works .step-top .icon-box,
+ #how-it-works .step-number { position: static; }
+ #how-it-works .steps h3 { padding-right: 0; }
+}
+
+/* Slightly larger, warmer feature icons. */
+#features .icon-box { width: 54px; height: 54px; border-radius: 15px; background: #ffe2cf; border-color: #edc6ae; color: #ae401f; }
+#features .icon-box svg { width: 27px; height: 27px; }
+
+/* Preserve the spacious benefit section with slightly less vertical padding. */
+.why-section { padding-block: 74px; }
+@media (max-width: 760px) {
+ .why-section { padding-block: 55px; }
+}
+
+/* A more concise FAQ with compact question and answer spacing. */
+#faq .faq summary { padding-block: 18px; }
+#faq .faq details p { padding-bottom: 19px; }
