@@ -32,10 +32,16 @@ Consent reference: https://developers.google.com/tag-platform/security/guides/co
 - Real browser checks cover desktop/mobile layout, screenshot dialogs and FAQ disclosures.
 - Existing privacy, terms and app-ads files match the previous Git commit byte-for-byte.
 
-These checks cover the static repository and local preview. They are not a penetration test, Lighthouse audit, ranking guarantee or live GA4 collection verification. Hosting headers and production behavior need verification after deployment.
+These checks cover the static repository and local preview. They are not a penetration test, ranking guarantee or live GA4 collection verification. Hosting headers and production behavior need verification after deployment.
 
 ## Preview and publish
 
 Run `python3 -m http.server 8765 --bind 127.0.0.1` in the repository, then open `http://127.0.0.1:8765/`. Root-relative URLs match the existing GitHub Pages root deployment.
 
-Push the reviewed commit when ready to publish. No Pages settings or workflow changes are required. The current task creates a local commit; it does not push or deploy.
+Push the reviewed commit when ready to publish. No Pages settings or workflow changes are required. Publication uses the existing main-branch GitHub Pages deployment.
+
+## Lighthouse optimization — October 2, 2026
+
+Lighthouse 13.5 mobile simulation: Performance 75 → 98; Accessibility 96 → 100; Best Practices 100; SEO 100. LCP 20.5 s → 2.5 s; CLS 0. Transfer size 4,344 KiB → 368 KiB. Local simulated results vary by hardware and network.
+
+Responsive WebP image variants are delivered to match rendered dimensions. Full-resolution originals remain available in the screenshot dialog. Two small contrast failures (mobile header CTA and step numbers) are corrected without changing the layout. GA4 configuration and the existing legal/app-ads bytes are unchanged.

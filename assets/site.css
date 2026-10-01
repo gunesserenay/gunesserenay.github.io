@@ -276,3 +276,7 @@ html:has(.screen-dialog[open]) { overflow: hidden; }
 /* A more concise FAQ with compact question and answer spacing. */
 #faq .faq summary { padding-block: 18px; }
 #faq .faq details p { padding-bottom: 19px; }
+
+/* Lighthouse contrast corrections, preserving the existing palette. */
+.header-cta { color: #193128; }
+#how-it-works .step-number { color: #5c6b61; }

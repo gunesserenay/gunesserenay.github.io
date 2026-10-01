@@ -8,7 +8,14 @@
     button.addEventListener('click', () => {
       trigger = button;
       const screen = button.querySelector('.app-screen').cloneNode(true);
-      screen.querySelectorAll('img').forEach(image => { image.loading = 'eager'; });
+      screen.querySelectorAll('img').forEach(image => {
+        image.loading = 'eager';
+        if (image.dataset.fullSrc) {
+          image.removeAttribute('srcset');
+          image.removeAttribute('sizes');
+          image.src = image.dataset.fullSrc;
+        }
+      });
       content.replaceChildren(screen);
       dialog.showModal();
       dialog.scrollTop = 0;
