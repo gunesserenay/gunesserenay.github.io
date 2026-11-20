@@ -33,46 +33,65 @@
 <body>
 
 <h1>Privacy Policy &ndash; AI Chef</h1>
-<p class="updated">Last updated: February 27, 2026</p>
+<p class="updated">Last updated: November 20, 2026</p>
 
-<p>AI Chef (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;the App&rdquo;) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
+<p>AI Chef (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;the App&rdquo;) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains what information we collect, how we use and safeguard it, and which choices you have when you use our mobile application.</p>
+
+<div class="section" id="impressum">
+<h2>Legal Notice (Impressum) and Controller</h2>
+<p>Information pursuant to &sect; 5 of the German Digital Services Act (DDG):</p>
+<p>Serenay Güneş Nuraydın<br>
+Etimesgut, Ankara, Türkiye<br>
+Email: <a href="mailto:moonsunapp@gmail.com">moonsunapp@gmail.com</a></p>
+<p>The provider named above is the controller responsible for the processing of personal data described in this Privacy Policy, within the meaning of the EU General Data Protection Regulation (GDPR) and the Turkish Personal Data Protection Law No. 6698 (KVKK).</p>
+</div>
 
 <div class="section">
 <h2>1. Information We Collect</h2>
 
-<h3>1.1 Camera and Images</h3>
-<p>AI Chef uses your device&rsquo;s camera to allow you to take photos of food ingredients for analysis.</p>
+<h3>1.1 Photos of Ingredients</h3>
+<p>When you scan ingredients, the App sends the photo you take or choose to our server, which forwards it to Google Gemini to recognize the ingredients.</p>
 <ul>
-    <li>Photos are used only for ingredient recognition and recipe generation</li>
-    <li>Images are processed securely</li>
-    <li>Images are not sold, not shared with advertisers, and not used for marketing</li>
-    <li>Images may be:
-        <ul>
-            <li>Temporarily processed on our servers</li>
-            <li>Stored for a limited time to enable features such as scan history, if enabled by the user</li>
-        </ul>
-    </li>
+    <li>Photos are used only for ingredient recognition and recipe matching</li>
+    <li>Photos are not stored on our servers after the analysis</li>
+    <li>Photos are not sold, not shared with advertisers, and not used for marketing</li>
+    <li>Your scan history (photos and detected ingredients) is stored only on your device</li>
 </ul>
 
-<h3>1.2 Automatically Collected Information</h3>
-<p>We may collect limited, non-identifiable technical information, including:</p>
+<h3>1.2 Your Account</h3>
 <ul>
-    <li>Device type and operating system</li>
-    <li>App version</li>
-    <li>Anonymous usage and performance data</li>
+    <li>When you first open the App, an anonymous account with a random user ID is created so that scan limits, favorites, and preferences work without signing in</li>
+    <li>If you sign in with Apple (iOS) or Google, we receive your email address and, if you share it, your name from the provider and link them to your account</li>
+    <li>We store your favorite recipes, diet preferences, scan counters, and a usage log of ingredient analyses (time and amount of use) with your user ID</li>
 </ul>
-<p>This information is used solely to improve app performance, fix bugs, and enhance user experience.</p>
+
+<h3>1.3 Purchases</h3>
+<ul>
+    <li>Your subscription status and purchase history, linked to your user ID through RevenueCat</li>
+    <li>We never receive your payment card or bank details</li>
+</ul>
+
+<h3>1.4 Usage and Diagnostics</h3>
+<ul>
+    <li>App usage events, such as which screens and features you use, the ingredients recognized in your scans, on Android the search terms you enter, your app language and device language (Firebase Analytics)</li>
+    <li>Crash reports with device model, operating system, app version, and technical logs (Firebase Crashlytics)</li>
+    <li>Analytics events are linked to a random app instance ID (on iOS also to the random user ID of your account), not to your name or email</li>
+</ul>
+
+<h3>1.5 Advertising Data</h3>
+<p>For free users, Google AdMob may collect the advertising identifier (on iOS only if you allow tracking in the App Tracking Transparency prompt; on Android the device&rsquo;s advertising ID), your IP address, and information about your device and the ads you see. Whether ads are personalized depends on your choices (see section 4).</p>
 </div>
 
 <div class="section">
 <h2>2. How We Use Your Information</h2>
-<p>Your data is used for the following purposes:</p>
+<p>We use your information for the following purposes:</p>
 <ul>
-    <li>Analyze food images and detect ingredients</li>
-    <li>Generate recipe suggestions</li>
-    <li>Maintain scan history (if enabled)</li>
-    <li>Manage premium subscriptions and access</li>
-    <li>Improve app functionality and user experience</li>
+    <li>To recognize ingredients in your photos and suggest matching recipes (performance of our contract with you, Art. 6(1)(b) GDPR)</li>
+    <li>To keep your favorites, diet preferences, and scan limits, and to manage your account and premium subscription (Art. 6(1)(b) GDPR)</li>
+    <li>To show ads to free users; personalized ads only with your consent (Art. 6(1)(a) GDPR), non-personalized or limited ads on the basis of our legitimate interest in financing the free version (Art. 6(1)(f) GDPR)</li>
+    <li>To understand how the App is used and improve it (Firebase Analytics; in the EEA, the UK, and Switzerland according to your consent choice, Art. 6(1)(a) GDPR)</li>
+    <li>To detect and fix crashes and keep the App secure (our legitimate interest in a stable and secure App, Art. 6(1)(f) GDPR)</li>
+    <li>To comply with legal obligations (Art. 6(1)(c) GDPR)</li>
 </ul>
 </div>
 
@@ -82,16 +101,15 @@
 
 <h3>3.1 Google Gemini (Generative AI)</h3>
 <ul>
-    <li>Used for image and ingredient analysis</li>
-    <li>Images are processed securely</li>
-    <li>Data is not used for advertising, profiling, or training ads</li>
+    <li>Used to recognize ingredients in your photos</li>
+    <li>Receives the photo and the analysis request from our server, not your name or email</li>
+    <li>We do not use your photos for advertising or profiling</li>
 </ul>
 
 <h3>3.2 Supabase</h3>
 <ul>
-    <li>Used as a secure backend service</li>
-    <li>Stores anonymized user data and preferences</li>
-    <li>Provides authentication and database services</li>
+    <li>Used as our backend for sign-in, the database, and the server functions that analyze photos and delete accounts</li>
+    <li>Stores the account data described in section 1.2</li>
 </ul>
 
 <h3>3.3 RevenueCat</h3>
@@ -107,22 +125,63 @@
     <li>Apple or Google handles all billing, payments, and financial information</li>
 </ul>
 
-<h3>3.5 Google AdMob</h3>
+<h3>3.5 Google AdMob and Google User Messaging Platform</h3>
 <ul>
     <li>Used to display advertisements to free users</li>
-    <li>May collect device identifiers for ad personalization, subject to your App Tracking Transparency choice on iOS</li>
+    <li>May collect device identifiers for ad personalization, subject to your consent choice and, on iOS, your App Tracking Transparency choice</li>
+    <li>In the EEA, the UK, and Switzerland, Google&rsquo;s consent form asks for your choice before ads are personalized</li>
     <li>Premium users enjoy an ad-free experience</li>
 </ul>
 
-<h3>3.6 Apple Sign In &amp; Google Sign-In</h3>
+<h3>3.6 Firebase Analytics</h3>
+<ul>
+    <li>Used to understand how the App is used, for example which features are opened and where errors occur</li>
+    <li>Receives your consent choice from the consent form (Google Consent Mode)</li>
+</ul>
+
+<h3>3.7 Firebase Crashlytics</h3>
+<ul>
+    <li>Used to collect crash reports so that we can fix errors</li>
+    <li>Crash reports carry a shortened, one-way hashed form of your user ID, never your name or email</li>
+</ul>
+
+<h3>3.8 Sign in with Apple &amp; Google Sign-In</h3>
 <ul>
     <li>Used for optional account authentication</li>
     <li>Only your basic profile (name, email) is used to secure your data across devices</li>
 </ul>
+
+<p>Google&rsquo;s privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>; how Google uses data from apps that use its services: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>. Supabase: <a href="https://supabase.com/privacy">supabase.com/privacy</a>. RevenueCat: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
 </div>
 
 <div class="section">
-<h2>4. Data Storage and Security</h2>
+<h2>4. Your Privacy Choices</h2>
+<ul>
+    <li>In the EEA, the UK, and Switzerland, the App shows Google&rsquo;s consent form before ads are loaded. You can change your choice at any time under Profile &rarr; Privacy Options</li>
+    <li>On iOS you can allow or stop tracking at any time under Settings &rarr; Privacy &amp; Security &rarr; Tracking; on Android you can reset or delete your advertising ID in your device&rsquo;s ad settings</li>
+    <li>Premium removes all ads</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>5. International Data Transfers</h2>
+<p>Some of the services above process data in the United States or in other countries outside the EEA and Türkiye. Where required, these transfers are protected by appropriate safeguards, such as the European Commission&rsquo;s Standard Contractual Clauses or the EU&ndash;U.S. Data Privacy Framework.</p>
+</div>
+
+<div class="section">
+<h2>6. Data Retention and Deletion</h2>
+<ul>
+    <li>Photos are deleted from our server as soon as the analysis is finished</li>
+    <li>Account data (section 1.2) is kept until you delete your account</li>
+    <li>You can delete your account in the App under Profile &rarr; My Account &rarr; Delete Account, or by emailing us. This permanently deletes your favorites, diet preferences, scan counters, usage log, and the account itself from our servers</li>
+    <li>Scan history stays on your device until you remove it or uninstall the App</li>
+    <li>Analytics and crash data are deleted automatically by Google after the retention period set in Firebase</li>
+    <li>Purchase records kept by RevenueCat, Apple, or Google may be retained as required for accounting and legal purposes</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>7. Data Security</h2>
 <p>We implement appropriate technical and organizational measures to protect your data:</p>
 <ul>
     <li>Secure communication channels (HTTPS)</li>
@@ -132,39 +191,38 @@
 </div>
 
 <div class="section">
-<h2>5. Data Sharing</h2>
-<p>We do not:</p>
-<ul>
-    <li>Sell your personal data</li>
-    <li>Share your data with advertisers</li>
-    <li>Use your data for marketing profiling</li>
-</ul>
-<p>Your data is shared only with the services listed above and only to provide app functionality.</p>
+<h2>8. Data Sharing</h2>
+<p>We do not sell your personal data. We share data only with the services listed above, only to the extent needed for the purposes described in this Privacy Policy, and for advertising only according to your choices in section 4.</p>
 </div>
 
 <div class="section">
-<h2>6. User Rights</h2>
-<p>Depending on your location, you may have the right to:</p>
+<h2>9. Your Rights</h2>
+<p>Depending on your location, including under the GDPR and the KVKK, you have the right to:</p>
 <ul>
     <li>Request access to your data</li>
-    <li>Request deletion of your data (also available in-app via Account &rarr; Delete Account)</li>
-    <li>Withdraw consent for data processing</li>
+    <li>Request correction of inaccurate data</li>
+    <li>Request deletion of your data (also available in the App, see section 6)</li>
+    <li>Request restriction of processing and object to processing based on legitimate interests</li>
+    <li>Receive your data in a portable format</li>
+    <li>Withdraw your consent at any time, with effect for the future (see section 4)</li>
+    <li>Lodge a complaint with a data protection supervisory authority, in particular in the country where you live</li>
 </ul>
 <p>You can contact us using the email below to exercise these rights.</p>
 </div>
 
 <div class="section">
-<h2>7. Children&rsquo;s Privacy</h2>
+<h2>10. Children&rsquo;s Privacy</h2>
 <p>AI Chef is not intended for children under the age of 13. We do not knowingly collect personal data from children.</p>
+<p>In the European Economic Area, consent in the consent form (for example to personalized ads) may only be given by users aged 16 or older, or the lower age set by the law of their country, which is never below 13. If you are younger, please ask a parent or guardian to make this choice with you, or select &ldquo;Do not consent&rdquo;.</p>
 </div>
 
 <div class="section">
-<h2>8. Changes to This Privacy Policy</h2>
+<h2>11. Changes to This Privacy Policy</h2>
 <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated revision date.</p>
 </div>
 
 <div class="section">
-<h2>9. Contact Us</h2>
+<h2>12. Contact Us</h2>
 <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
 <p>Email: <a href="mailto:aichefmoonsun@gmail.com">aichefmoonsun@gmail.com</a><br>
 App Name: AI Chef</p>
